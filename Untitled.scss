@@ -23,10 +23,12 @@ $enable-print-styles:       true !default;
 //
 // Theme settings.
 
-$body-bg: white;
-$body-color: #292b2c;
+$body-bg: ;
+
+$body-color: ;
+
 $body-color-inverse: invert($body-color) !default;
-$link-color: #00b0eb;
+
 
 $font-family-base: Cardo;
 $headings-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
@@ -47,4 +49,4 @@ $display4-size: 3.5 * $font-size-base;
 $border-radius: .25rem;
 
 
-@import 'bootstrap-4.0.0-alpha.6';
+@import 'bootstrap-4.0.0-beta.1';
